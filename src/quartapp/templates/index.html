@@ -118,7 +118,7 @@
                         // Only show thoughts if they are more than just whitespace
                         messageDiv.querySelector(".loading-bar").style.display = "none";
                         messageDiv.querySelector(".thoughts").style.display = "block";
-                        messageDiv.querySelector(".thoughts-content").innerHTML = thoughts;
+                        messageDiv.querySelector(".thoughts-content").innerHTML = converter.makeHtml(thoughts);
                     }
                 } else {
                     messageDiv.querySelector(".loading-bar").style.display = "none";
