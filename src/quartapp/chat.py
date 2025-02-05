@@ -47,7 +47,7 @@ async def configure_openai():
         endpoint=os.environ["AZURE_INFERENCE_ENDPOINT"],
         credential=azure_credential,
         credential_scopes=["https://cognitiveservices.azure.com/.default"],
-        model="DeepSeek-R1"
+        model="DeepSeek-R1",
     )
 
 
