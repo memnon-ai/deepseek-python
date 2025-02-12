@@ -83,7 +83,7 @@ module aiServices 'br/public:avm/res/cognitive-services/account:0.7.2' = {
     roleAssignments: [
       {
         principalId: principalId
-        principalType: 'User'
+        principalType: 'ServicePrincipal'
         roleDefinitionIdOrName: 'Cognitive Services User'
       }
     ]
