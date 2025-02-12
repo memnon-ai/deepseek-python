@@ -1,4 +1,4 @@
-#!/home/liotius/deepseek-python/env/bin/python
+#!/home/liotius/deepseek-python/env/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
